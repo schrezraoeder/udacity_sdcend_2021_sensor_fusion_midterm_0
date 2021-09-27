@@ -1,0 +1,19 @@
+name: exp_1
+channels:
+  - pytorch
+  - soumith
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - matplotlib
+  - pip:
+    - torch
+    - tqdm 
+    - opencv-python
+    - shapely 
+    - wxPython
+    - protobuf 
+    - easydict
+    - open3d
+    - Pillow 
