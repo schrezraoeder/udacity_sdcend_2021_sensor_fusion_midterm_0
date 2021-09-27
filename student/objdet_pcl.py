@@ -301,15 +301,15 @@ def bev_from_pcl(lidar_pcl, configs):
 
 
     ## step 3 : temporarily visualize the intensity map using OpenCV to make sure that vehicles separate well from the background
-    img_height = height_map * 256 # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
-    img_height = img_height.astype(np.uint8) # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
-    ################ NOTE: uncomment out the next 6 lines of code BUT I cannot look at over 100 images while going through the last step of the project!!!!!
-    while (1): # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
-        cv2.imshow('img_height', img_height) # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
-        # if cv2.waitKey(10) & 0xFF == 27: # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
-        if cv2.waitKey(10) & 0xFF == 113: #ord('q'): # https://stackoverflow.com/questions/57690899/how-cv2-waitkey1-0xff-ordq-works 
-            break # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
-    cv2.destroyAllWindows() # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN  
+    # img_height = height_map * 256 # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
+    # img_height = img_height.astype(np.uint8) # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
+    # ################ NOTE: uncomment out the next 6 lines of code BUT I cannot look at over 100 images while going through the last step of the project!!!!!
+    # while (1): # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
+    #     cv2.imshow('img_height', img_height) # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
+    #     # if cv2.waitKey(10) & 0xFF == 27: # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
+    #     if cv2.waitKey(10) & 0xFF == 113: #ord('q'): # https://stackoverflow.com/questions/57690899/how-cv2-waitkey1-0xff-ordq-works 
+    #         break # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
+    # cv2.destroyAllWindows() # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN  
 
     #######
     ####### ID_S2_EX3 END #######       

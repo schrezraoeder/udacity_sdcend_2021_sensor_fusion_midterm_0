@@ -253,6 +253,31 @@ Unfortunately my precision & recall are both around 95-96% and one is supposed t
 so I'm not sure if this is good enough to qualify yet. If not, any and all feedback and suggestions are very, very greatly
 appreciated as I have spent many dozens of hours on this already. 
 
+Presently if you comment out the lines: 
+
+```python
+# while (1): # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
+    #     cv2.imshow('img_intensity', img_intensity) # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
+    #     #if cv2.waitKey(10) & 0xFF == 27: # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
+    #     if cv2.waitKey(10) & 0xFF == 113: # ord('q'): # https://stackoverflow.com/questions/57690899/how-cv2-waitkey1-0xff-ordq-works 
+    #         break # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
+    # cv2.destroyAllWindows() # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN    
+``` 
+
+in `objdet_pcl.py` and process it based on the configuration settings for this rubric point you get something like:
+
+precision = 0.9508196721311475, recall = 0.9477124183006536
+precision = 0.996, recall = 0.8137254901960784??????? 
+
+(The first line of precision & recall, i.e. 95.1% & 94.8%, is mine, the second one with a million question 
+marks at the end is just a print statement where I was checking based on what they said we should get). 
+
+[precision_recall](precision_recall.png) 
+
+[prec_recall](prec_recall.png)
+
+
+
 
 
 
