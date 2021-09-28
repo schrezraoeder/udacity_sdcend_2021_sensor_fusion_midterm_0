@@ -1,22 +1,21 @@
 # ID_S1_EX2
 
-Here I'll go through the rubric point by point but I'll start with the one that we actually had to include in this writeup, which
+Here I'll go through the rubric point by point but I'll start with the one that *we actually had to include in this writeup*, which
 is "Visualize point-cloud (ID_S1_EX2)" (after that I'll go beginning to end in order): 
 - "Visualize the point-cloud using the open3d module" 
 
-> Following are 10 images which were screenshots taken of different point clouds. Unfortunately, they all look quite 
-similar and it is extremely hard to make out any features. 
+> *Please note that this section has been re-written since my first submission as I have carefully addressed and elaborated
+upon all points which a prior Professional Code Reviewer did not pass my project on* 
 
-![Lidar Point Cloud 0](lidar_pcl_0.png)
-![Lidar Point Cloud 1](lidar_pcl_1.png)
-![Lidar Point Cloud 2](lidar_pcl_2.png)
-![Lidar Point Cloud 3](lidar_pcl_3.png)
-![Lidar Point Cloud 4](lidar_pcl_4.png)
-![Lidar Point Cloud 5](lidar_pcl_5.png)
-![Lidar Point Cloud 6](lidar_pcl_6.png)
-![Lidar Point Cloud 7](lidar_pcl_7.png)
-![Lidar Point Cloud 8](lidar_pcl_8.png)
-![Lidar Point Cloud 9](lidar_pcl_9.png)
+> Following are 10 images which were screenshots taken of different point clouds. 
+
+![ID_S1_EX2_0](ID_S1_EX2_0.png) 
+
+I've drawn on the screenshot of the picture outputted by open3d as you can see above, in Paint. 
+I surrounded a truck with a trailer on the back of it and drew arrows pointing at the rear tire 
+as well as the bumper of the trailer. I've also drawn arrows alongside vehicles which are in opposing
+traffic, so I've drawn arrows pointing in the direction that those vehicles are traveling. 
+
 
 - "Find 10 examples of vehicles with varying degrees of visibility in the point-cloud" 
 - "Try to identify vehicle features that appear stable in most of the inspected examples and describe them" 
