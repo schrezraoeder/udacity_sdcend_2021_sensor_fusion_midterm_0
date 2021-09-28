@@ -80,15 +80,8 @@ wing mirror on the truck. You can also make out the orientation of the cars in o
 And in this last picture above we again see the truck with its trailer and its huge drivers side wing mirror, as well as 
 the aerodynamics of the cars in opposing traffic indicating clearly their orientation.  
 
-
-
-
-
-- "Find 10 examples of vehicles with varying degrees of visibility in the point-cloud" 
-- "Try to identify vehicle features that appear stable in most of the inspected examples and describe them" 
-- "Identify vehicle features that appear as a stable feature on most vehicles (e.g. rear-bumper, tail-lights) and describe them briefly. Also, use the range image viewer from the last example to underpin your findings using the lidar intensity channel."  
-
-Because no features can be made out in the above images it isn't possible to fully satisfy this rubric point other than writing about it (like this). I'm honestly thinking that this is what was intended.  
+I have addressed all areas of the prior Professional Code Reviewers comments where they indicated that 1. required 
+changes were needed in my code and / or 2. that rubric items were not meeting specifications. 
 
 # ID_S1_EX1 
 
