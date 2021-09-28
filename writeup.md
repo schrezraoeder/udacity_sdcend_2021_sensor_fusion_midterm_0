@@ -14,7 +14,31 @@ upon all points which a prior Professional Code Reviewer did not pass my project
 I've drawn on the screenshot of the picture outputted by open3d as you can see above, in Paint. 
 I surrounded a truck with a trailer on the back of it and drew arrows pointing at the rear tire 
 as well as the bumper of the trailer. I've also drawn arrows alongside vehicles which are in opposing
-traffic, so I've drawn arrows pointing in the direction that those vehicles are traveling. 
+traffic, so I've drawn arrows pointing in the direction that those vehicles are traveling. We can see the 
+passenger side mirror / wing mirror encasement for certain on the closest vehicle to us in the opposing
+traffic (and probably the second vehicle as well but it is more of an abstract painting on that one so
+it is not as certain that that is what we are looking at on the second vehicle).  
+
+![ID_S1_EX2_1](ID_S1_EX2_1.png)
+
+The above was from frame 0 and this is frame 1. As can be seen, the same truck with a trailer on the back, so I've 
+drawn another rectangle around it and an arrow pointing to one of the truck's tires. 
+
+![ID_S1_EX2_2](ID_S1_EX2_2.png) 
+
+Here in the next frame we see again the side mirror / wing mirror on the far side of the nearest vehicle 
+in opposing traffic (I've drawn an arrow in black in Paint pointing at it above). And, we see the same 
+truck with the trailer as this is the very next frame, and the orientation of the truck and trailer makes
+it clear where the bumper of the trailer is (I've drawn an arrow pointing at it) as well as some of the tires of 
+the truck and trailer can be seen as well & I've drawn an arrow pointing at one of them.  
+
+![ID_S1_EX2_2](ID_S1_EX2_2.png) 
+
+
+
+
+
+
 
 
 - "Find 10 examples of vehicles with varying degrees of visibility in the point-cloud" 
