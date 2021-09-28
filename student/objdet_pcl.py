@@ -272,7 +272,7 @@ def bev_from_pcl(lidar_pcl, configs):
     #         break # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
     # cv2.destroyAllWindows() # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN    
     cv2.imshow('img_intensity', img_intensity) # these 3 lines of code added as per required changed on a code review 
-    cv2.waitkey(0) # these 3 lines of code added as per required changed on a code review 
+    cv2.waitKey(0) # these 3 lines of code added as per required changed on a code review 
     cv2.destroyAllWindows() # these 3 lines of code added as per required change on a code review  here: https://review.udacity.com/#!/reviews/3191077
 
 
@@ -315,7 +315,7 @@ def bev_from_pcl(lidar_pcl, configs):
     #         break # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
     # cv2.destroyAllWindows() # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN  
     cv2.imshow('img_intensity', img_intensity) # these 3 lines of code added as per required changed on a code review 
-    cv2.waitkey(0) # these 3 lines of code added as per required changed on a code review 
+    cv2.waitKey(0) # these 3 lines of code added as per required changed on a code review 
     cv2.destroyAllWindows() # these 3 lines of code added as per required change on a code review  here: https://review.udacity.com/#!/reviews/3191077
 
     #######
