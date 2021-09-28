@@ -115,9 +115,10 @@ def show_range_image(frame, lidar_name):
     # EJS: 
     # the rubric says, Crop range image to +/- 90 deg. left and right of the forward-facing x-axis, however, I think they mean
     # +/- 45 deg as that was what was referenced as per the Waymo paper in the Classroom materials 
-    deg45 = int(img_range.shape[1] / 8) # s.l.o.c. from the Udacity Classroom here: https://bit.ly/3zogPt1 
+    # NOTE: I changed the following line of code based on a review which stated I need to 90 degrees not 45 as per the rubric. 
+    deg90 = int(img_range.shape[1] / 4) # s.l.o.c. from the Udacity Classroom here: https://bit.ly/3zogPt1 
     ri_center = int(img_range.shape[1]/2) # s.l.o.c. from the Udacity Classroom here: https://bit.ly/3zogPt1 
-    img_range = img_range[:,ri_center-deg45:ri_center+deg45] # s.l.o.c. from the Udacity Classroom here: https://bit.ly/3zogPt1  
+    img_range = img_range[:,ri_center-deg90:ri_center+deg90] # s.l.o.c. from the Udacity Classroom here: https://bit.ly/3zogPt1  
     img_range = img_range.astype(np.uint8) # probably don't need this, added it just in case <--- ejs 
 
     # step 5 : map the intensity channel onto an 8-bit scale and normalize with the difference between the 1- and 99-percentile 
@@ -131,9 +132,9 @@ def show_range_image(frame, lidar_name):
     img_intensity = ri_intensity.astype(np.uint8)
 
     # following 3 lines of code from the classroom at: https://bit.ly/3kqZ2gJ 
-    deg45 = int(img_intensity.shape[1] / 8)
+    deg90 = int(img_intensity.shape[1] / 4)
     ri_center = int(img_intensity.shape[1]/2)
-    img_intensity = img_intensity[:,ri_center-deg45:ri_center+deg45] 
+    img_intensity = img_intensity[:,ri_center-deg90:ri_center+deg90] 
     
     # step 6 : stack the range and intensity image vertically using np.vstack and convert the result to an unsigned 8-bit integer
     img_range_intensity = np.vstack((img_range, img_intensity)) 
@@ -270,6 +271,9 @@ def bev_from_pcl(lidar_pcl, configs):
     #     if cv2.waitKey(10) & 0xFF == 113: # ord('q'): # https://stackoverflow.com/questions/57690899/how-cv2-waitkey1-0xff-ordq-works 
     #         break # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
     # cv2.destroyAllWindows() # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN    
+    cv2.imshow('img_intensity', img_intensity) # these 3 lines of code added as per required changed on a code review 
+    cv2.waitkey(0) # these 3 lines of code added as per required changed on a code review 
+    cv2.destroyAllWindows() # these 3 lines of code added as per required change on a code review  here: https://review.udacity.com/#!/reviews/3191077
 
 
     #######
@@ -310,6 +314,9 @@ def bev_from_pcl(lidar_pcl, configs):
     #     if cv2.waitKey(10) & 0xFF == 113: #ord('q'): # https://stackoverflow.com/questions/57690899/how-cv2-waitkey1-0xff-ordq-works 
     #         break # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN   
     # cv2.destroyAllWindows() # s.l.o.c. from the Udacity Classroom: https://bit.ly/2XvPsQN  
+    cv2.imshow('img_intensity', img_intensity) # these 3 lines of code added as per required changed on a code review 
+    cv2.waitkey(0) # these 3 lines of code added as per required changed on a code review 
+    cv2.destroyAllWindows() # these 3 lines of code added as per required change on a code review  here: https://review.udacity.com/#!/reviews/3191077
 
     #######
     ####### ID_S2_EX3 END #######       

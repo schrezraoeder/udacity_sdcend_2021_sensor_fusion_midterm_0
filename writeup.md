@@ -28,8 +28,16 @@ Because no features can be made out in the above images it isn't possible to ful
 
 I feel that I have addressed all the rubric points as well as the bullet pointed suggestions pertaining thereto in the classroom materials that described the project setup and execution. 
 
+The following are pictures from my original submission of this project. 
+
 ![Range 0](range_0.png)
-![Range 1](range_1.png)
+![Range 1](range_1.png) 
+
+However, I made some changes as per the first review of this project to address all things mentioned by the previous Professional
+Code Reviewer at Udacity so now they look like:
+
+![ID_S1_EX1](ID_S1_EX1.png) 
+![ID_S1_EX2](ID_S1_EX2.png) 
 
 # ID_S2_EX1 
 
