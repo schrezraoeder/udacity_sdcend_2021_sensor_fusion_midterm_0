@@ -32,10 +32,53 @@ truck with the trailer as this is the very next frame, and the orientation of th
 it clear where the bumper of the trailer is (I've drawn an arrow pointing at it) as well as some of the tires of 
 the truck and trailer can be seen as well & I've drawn an arrow pointing at one of them.  
 
-![ID_S1_EX2_2](ID_S1_EX2_2.png) 
+![ID_S1_EX2_3](ID_S1_EX2_3.png) 
 
+Here I've drawn an arrow at the truck / trailer's bumper, and a rectangle around that car with distinctive features 
+in opposing traffic in the next lidar pointcloud frame. 
 
+![ID_S1_EX2_4](ID_S1_EX2_4.png) 
 
+What I wanted to highlight in the next frame, above, is that a car in opposing traffic has many distinctive features
+which can be very clearly seen. The windows, the shape of the car indicating which direction it is facing, the front 
+driver's side tire, the rear driver's side tire. And once again I've drawn in black in Paint around the truck with its
+trailer to keep our orientation as I'm dealing with these in successive frames at the beginning of the sequence 
+of the 200 frames. 
+
+![ID_S1_EX2_5](ID_S1_EX2_5.png)  
+
+Here I've highlighted (a.k.a. drawn around in black in Paint) a car in opposing traffic, and again, the same thing for
+the truck & trailer which is clear again the orientation of it (i.e. where the bumper on the trailer is, the empty
+bed of the truck, etc.). 
+
+![ID_S1_EX2_6](ID_S1_EX2_6.png)
+
+In the above picture I've drawn in black around the back of the trailer attached to the truck and around a car in opposing traffic. 
+Here, I've rotated around in the open3d visualization of the lidar frame. So, you can see the orientation of the car in 
+opposing traffic that it is right next to the truck with the trailer and going the opposite direction. Meanwhile, distinctive
+features of the trailer can be seen again here (even though I've oriented it the opposite direction by dragging around
+the open3d viewer window, so you might need to regain your orientation here--the trailer on the truck is to the left here and
+the truck is out of view, the orientation is backwards from the above pictures because I wanted to show how clearly the 
+orientation of that car which is alongside the truck with its trailer is in each of these frames; a video would make it easier to
+follow along, otherwise we are relegated to English & pictures). 
+
+![ID_S1_EX2_7](ID_S1_EX2_7.png) 
+
+In this picture again the truck with its trailer can be seen back to the usual orientation. This truck has quite a large
+wing mirror / side mirror on the drivers side. In some of the other images it was hard to tell whether it was actually
+the front tire or the wing mirror but here it is more clear that it is the side mirror. Again we can see the shape of the 
+cars nearby in opposing traffic indicating the aerodynamics of them and which way they are facing. 
+
+![ID_S1_EX2_8](ID_S1_EX2_8.png) 
+
+In the above the truck with the trailer is right in the center of the image and *facing* us. I've changed the orientation
+again by dragging around the open3d viewer. You can see the back of the trailer. And, you can see that huge driver's side
+wing mirror on the truck. You can also make out the orientation of the cars in opposing traffic. 
+
+![ID_S1_EX2_9](ID_S1_EX2_9.png) 
+
+And in this last picture above we again see the truck with its trailer and its huge drivers side wing mirror, as well as 
+the aerodynamics of the cars in opposing traffic indicating clearly their orientation.  
 
 
 
